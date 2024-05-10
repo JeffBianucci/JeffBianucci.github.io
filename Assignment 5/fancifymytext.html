@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Fancify Shamcify</title>
-  <!-- Link to an external script file -->
   <script src="fancifymytext.js" defer></script>
   <style>
     fieldset {
@@ -31,13 +30,14 @@
   <!-- Fieldset for Fancify controls -->
   <fieldset>
     <legend>Fancify</legend>
-    <button id="biggerButton" onclick="showAlert()">Bigger!</button>
+    <button id="biggerButton" onclick="makeTextBigger()">Bigger!</button>
     <label>
-      <input type="radio" name="style" value="fancy"> FancyShmancy
+      <input type="radio" name="style" id="fancy" onchange="toggleStyles()" value="fancy"> FancyShmancy
     </label>
     <label>
-      <input type="radio" name="style" value="boring"> BoringBetty
+      <input type="radio" name="style" id="boring" onchange="toggleStyles()" value="boring"> BoringBetty
     </label>
+    <button id="mooButton" onclick="mooifyText()">Moo</button>
   </fieldset>
 
 </body>
