@@ -1,2 +1,2 @@
 # JeffBianucci.github.io
-Jeff Bianucci CSC193A Website
+Jeff Bianucci CSC193A Web Development Exercises
