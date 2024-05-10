@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fancify Shamcify</title>
+  <!-- Link to an external script file -->
+  <script src="fancifymytext.html" defer></script>
+  <style>
+    fieldset {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Fancify my Text</h1>
+
+  <!-- Fieldset for Text input -->
+  <fieldset>
+    <legend>Text</legend>
+    <label for="userText">Enter your text:</label>
+    <textarea id="userText" rows="4" cols="30"></textarea>
+  </fieldset>
+
+  <!-- Fieldset for Fancify controls -->
+  <fieldset>
+    <legend>Fancify</legend>
+    <button id="biggerButton">Bigger!</button>
+    <label>
+      <input type="radio" name="style" value="fancy"> FancyShmancy
+    </label>
+    <label>
+      <input type="radio" name="style" value="boring"> BoringBetty
+    </label>
+  </fieldset>
+
+</body>
+</html>
